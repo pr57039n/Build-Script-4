@@ -61,8 +61,8 @@ drinkdata = drinkrequest.json()
 with open('personaldrink.json', "w") as file:
     json.dump(drinkdata, file)
 
-drinklist = pd.read_json(r'C:\users\docto\Desktop\New Folder\Build 4\personaldrink.json')
-drinklist.to_csv(r'C:\users\docto\Desktop\New Folder\Build 4\personaldrink.csv', index = None)
+drinklist = pd.read_json('personaldrink.json')
+drinklist.to_csv('personaldrink.csv', index = None)
 
 #Attemtping to format the data
 formatstrength = drinkdata['drinks'][0]['strAlcoholic']
