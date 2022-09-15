@@ -4,17 +4,17 @@ echo "Hello! This program will fetch information for cocktails using different s
 echo "For now, only the Drink information function will work."
 
 PS3="Select an option (1-4)"
-select i in DrinkInformation DrinkInstruction DrinkVideo Exit
+select i in Drink_Information Drink_Instruction Drink_Video Exit
 do 
     case $i in
-    DrinkInformation)
+    Drink_Information)
         python3 Cocktails.py
         break
         ;;
-    DrinkInstruction)
+    Drink_Instruction)
         echo "Currently unavailable"
         ;;
-    DrinkVideo)
+    Drink_Video)
         echo "Currently unavailable"
         ;;
     Exit)
