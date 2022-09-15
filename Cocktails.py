@@ -21,7 +21,7 @@ while(True):
         continue
 # Lastly it will check if the user wants to know the type of glass that should be used.
 while (True):
-        glasstype = input("Would you like to know what glass is used for this drink? SImilarly; yes or no only:").lower()
+        glasstype = input("Would you like to know what glass is used for this drink? Similarly; yes or no only:").lower()
         if glasstype == "yes":
             print("I will keep that in mind")
             break
