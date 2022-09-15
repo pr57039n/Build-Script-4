@@ -8,3 +8,6 @@ However, this is the only section that works as of right now.
 
 ### How to use
 Run introduction.sh ; pick from the menu and follow the prompts.
+
+### Requirements
+Please install Pandas moducle via pip install first in order to have a personalized csv with your result.
